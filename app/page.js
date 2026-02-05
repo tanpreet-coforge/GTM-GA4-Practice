@@ -1,7 +1,7 @@
 'use client';
 
 import { useEffect } from 'react';
-import { trackPageView } from '../lib/gtm';
+import { trackPageView } from '@/lib/gtm';
 
 export default function Home() {
   useEffect(() => {

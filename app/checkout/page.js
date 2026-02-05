@@ -1,7 +1,7 @@
 'use client';
 
 import { useEffect, useState } from 'react';
-import { trackPageView, trackEvent } from '../lib/gtm';
+import { trackPageView, trackEvent } from '@/lib/gtm';
 
 export default function Checkout() {
   const [formData, setFormData] = useState({
