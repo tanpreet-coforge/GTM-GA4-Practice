@@ -16,7 +16,7 @@ A simple Next.js website designed for practicing Google Tag Manager (GTM) and Go
 
 ### 1. Clone/Download Files
 
-All files are in the `c:\Users\Tanpreet.Singh\Desktop\Demo Websites\GTM-GA4 Practice` directory.
+https://github.com/tanpreet-coforge/GTM-GA4-Practice.git
 
 ### 2. Install Dependencies
 
