@@ -7,7 +7,6 @@ You'll deploy quickly, verify events in GTM Preview and GA4 Realtime, and follow
 
 ## What You'll Build
 
-*   ✅ Multi-page Next.js app (Home, Products, Checkout, Contact)
 *   ✅ **Automatic page view** tracking (via GTM + GA4 Configuration)
 *   ✅ **Custom events**: `view_item`, `add_to_cart`, `begin_checkout`, `purchase`, `contact_form_submit`
 *   ✅ **E‑commerce examples** following GA4 recommended parameters
@@ -24,13 +23,25 @@ You'll deploy quickly, verify events in GTM Preview and GA4 Realtime, and follow
 
 ***
 
-## 1) Clone & Install
+## 1) Clone & Install Or Deploy Directly on Vercel
 
 ```bash
 git clone https://github.com/tanpreet-coforge/GTM-GA4-Practice.git
 cd GTM-GA4-Practice
 npm install
 ```
+
+## 🚀 Deploy on Vercel
+
+You can deploy this project instantly to Vercel by clicking the button below:
+
+[![Deploy with Vercel](https://vercel.com/button)](
+https://vercel.com/new/clone
+?repository-url=https://github.com/tanpreet-coforge/gtm-ga4-practice
+&env=NEXT_PUBLIC_GTM_ID
+&envDescription=Google%20Tag%20Manager%20Container%20ID
+)
+
 
 ***
 
@@ -52,7 +63,7 @@ npm install
 
 ***
 
-## 3) Configure Environment Variables
+## 3) Configure Environment Variables (Skip if using Vercel)
 
 Create **`.env.local`** in the project root:
 
@@ -68,7 +79,7 @@ NEXT_PUBLIC_GA_ID=G-XXXXXXXXXX
 
 ***
 
-## 4) Run Locally
+## 4) Run Locally (Skip if using Vercel)
 
 ```bash
 npm run dev
@@ -79,7 +90,7 @@ You can start reading the next sections while the app is running.
 
 ***
 
-## 5) Deploy to Vercel
+## 5) Deploy to Vercel 
 
 ```bash
 npm install -g vercel
