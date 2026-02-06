@@ -18,7 +18,7 @@ You'll deploy quickly, verify events in GTM Preview and GA4 Realtime, and follow
 ## Prerequisites
 
 *   A Google account with access to **Google Tag Manager** and **Google Analytics**
-*   Node.js 18+ and npm
+*   Node.js 18+ and npm (Skip if using Vercel)
 *   A Vercel account (free)
 
 ***
