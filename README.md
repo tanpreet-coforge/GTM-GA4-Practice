@@ -35,12 +35,7 @@ npm install
 
 You can deploy this project instantly to Vercel by clicking the button below:
 
-[![Deploy with Vercel](https://vercel.com/button)](
-https://vercel.com/new/clone
-?repository-url=https://github.com/tanpreet-coforge/gtm-ga4-practice
-&env=NEXT_PUBLIC_GTM_ID
-&envDescription=Google%20Tag%20Manager%20Container%20ID
-)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/tanpreet-coforge/gtm-ga4-practice&env=NEXT_PUBLIC_GTM_ID&envDescription=Google%20Tag%20Manager%20Container%20ID)
 
 
 ***
